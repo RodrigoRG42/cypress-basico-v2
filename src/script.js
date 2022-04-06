@@ -55,7 +55,7 @@ document.querySelector('button[type="submit"]')
     hideMessageAfterTimeout(successMessage)
   }, false)
 
-function showAndHideErrorMessage() {
+function showAndHideErrorMessageTESTE() {
   const errorMessage = document.querySelector('.error')
   errorMessage.style.display = 'block'
   scroll(0,0)
@@ -63,7 +63,7 @@ function showAndHideErrorMessage() {
   return
 }
 
-function hideMessageAfterTimeout(element) {
+function hideMessageAfterTimeoutTESTE(element) {
   setTimeout(function() {
     element.style.display = 'none'
   }, 3000)

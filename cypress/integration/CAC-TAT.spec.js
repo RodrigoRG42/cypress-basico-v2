@@ -175,5 +175,4 @@ describe('Central de Atendimento ao Cliente TAT', function() {
 
           cy.contains('#title', 'CAC TAT - Política de privacidade').should('be.visible')
     });
-
 })
